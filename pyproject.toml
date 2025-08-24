@@ -1,0 +1,16 @@
+[tool.black]
+line-length = 88
+skip-string-normalization = false
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+
+[tool.bandit]
+target = "app"
+
+[tool.mypy]
+ignore_missing_imports = true

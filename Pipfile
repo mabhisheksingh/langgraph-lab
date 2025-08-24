@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langgraph = "*"
+pypdf = "*"
+sentence-transformers = "*"
+langchain-huggingface = "*"
+python-dotenv = "*"
+langchain = ">=0.2"
+langchain-community = ">=0.2"
+langchain-ollama = ">=0.1"
+ipykernel = "*"
+pytest = "*"
+
+[dev-packages]
+notebook = "*"
+black = "*"
+isort = "*"
+flake8 = "*"
+pylint = "*"
+bandit = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.13"
+python_full_version = "3.13.5"
